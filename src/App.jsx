@@ -1,13 +1,9 @@
-import { Post } from "./components/Post";
+import { Header } from "./components/Header";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!!</h1>
-      <Post 
-        author="Alexandre Soares" 
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut leo libero, pharetra a laoreet eget, interdum sed metus." 
-      />
+      <Header />
     </div>
   );
 }
